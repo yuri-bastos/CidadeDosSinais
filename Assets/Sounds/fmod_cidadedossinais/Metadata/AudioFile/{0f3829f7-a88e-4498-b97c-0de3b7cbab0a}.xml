@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0f3829f7-a88e-4498-b97c-0de3b7cbab0a}">
+		<property name="assetPath">
+			<value>music_background_transportes_01.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>114.59460416666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{98fdaa05-cc9e-4fef-a80d-4f73622fe2b9}</destination>
+		</relationship>
+	</object>
+</objects>

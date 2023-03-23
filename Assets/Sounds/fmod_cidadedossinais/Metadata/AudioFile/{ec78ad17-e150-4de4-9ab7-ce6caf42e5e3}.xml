@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ec78ad17-e150-4de4-9ab7-ce6caf42e5e3}">
+		<property name="assetPath">
+			<value>music_cidadedossinais_background_menuprincipal_01.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>81.951229166666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{98fdaa05-cc9e-4fef-a80d-4f73622fe2b9}</destination>
+		</relationship>
+	</object>
+</objects>

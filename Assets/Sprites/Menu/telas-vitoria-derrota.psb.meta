@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: cd98889718ca35a45ab8865d6eeeabc8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: BOTAO JOGAR NOVAMENTE TELA DERROTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4523
+      width: 2300
+      height: 364
+    spriteID: 4266d2618a753ed46ae5556a63bcc865
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -432, y: 3857}
+  - name: BOTAO VOLTAR PARA MENU TELA DERROTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5112
+      width: 943
+      height: 311
+    spriteID: 7691173fe2b23064b86ff4013d8a4946
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1110, y: 4928}
+  - name: "N\xC3O FOI DESSA VEZ..."
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4895
+      width: 2272
+      height: 209
+    spriteID: bfae2f77a4691fd47b2dec36fdb6d517
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -451, y: 3564}
+  - name: BASE PLACA DERROTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2278
+      width: 3140
+      height: 2237
+    spriteID: 69f40b613243e3447996b09e9637ceec
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -12, y: 2278}
+  - name: BOTAO VOLTAR PARA MENU TELA VITORIA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2312
+      y: 4523
+      width: 1091
+      height: 360
+    spriteID: ad7db00f0d7bbd745bd7d31f96723837
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1287, y: 4336}
+  - name: BASE PLACA VITORIA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3141
+      height: 2266
+    spriteID: 4ab8ddbaa2c8cf94d98f5207f4cf2279
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 4096
+  importedTextureHeight: 8192
+  documentSize: {x: 3156, y: 2266}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 4096
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: BOTAO JOGAR NOVAMENTE TELA DERROTA
+    spriteName: BOTAO JOGAR NOVAMENTE TELA DERROTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4266d2618a753ed46ae5556a63bcc865
+    layerID: 32
+    mosaicPosition: {x: 4, y: 4523}
+  - name: BOTAO VOLTAR PARA MENU TELA DERROTA
+    spriteName: BOTAO VOLTAR PARA MENU TELA DERROTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7691173fe2b23064b86ff4013d8a4946
+    layerID: 28
+    mosaicPosition: {x: 4, y: 5112}
+  - name: "N\xC3O FOI DESSA VEZ..."
+    spriteName: "N\xC3O FOI DESSA VEZ..."
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bfae2f77a4691fd47b2dec36fdb6d517
+    layerID: 36
+    mosaicPosition: {x: 4, y: 4895}
+  - name: BASE PLACA DERROTA
+    spriteName: BASE PLACA DERROTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 69f40b613243e3447996b09e9637ceec
+    layerID: 22
+    mosaicPosition: {x: 4, y: 2278}
+  - name: BOTAO VOLTAR PARA MENU TELA VITORIA
+    spriteName: BOTAO VOLTAR PARA MENU TELA VITORIA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ad7db00f0d7bbd745bd7d31f96723837
+    layerID: 18
+    mosaicPosition: {x: 2312, y: 4523}
+  - name: BASE PLACA VITORIA
+    spriteName: BASE PLACA VITORIA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4ab8ddbaa2c8cf94d98f5207f4cf2279
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: telas-vitoria-derrota Texture
+  prefabAssetName: telas-vitoria-derrota Prefab
+  spriteLibAssetName: telas-vitoria-derrota Sprite Lib
+  secondarySpriteTextures: []

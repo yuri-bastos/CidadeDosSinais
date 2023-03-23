@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c762be90-97aa-4ddd-bb98-06ee34b7e7d6}">
+		<property name="assetPath">
+			<value>sfx_object_importantes_escola.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.3999999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{98fdaa05-cc9e-4fef-a80d-4f73622fe2b9}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a3a71dca-0d41-4652-b64d-2485300a4443}">
+		<property name="name">
+			<value>ambience_parameter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bb67b804-b517-4409-889e-9dbfa783b0bf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{439b4dee-9efc-451d-98db-f68bbba762d7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{439b4dee-9efc-451d-98db-f68bbba762d7}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>transporte</value>
+			<value>importantes</value>
+			<value>especiais</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>1</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

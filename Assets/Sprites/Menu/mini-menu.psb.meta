@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: 35a913258aa81b64e8824b44c4913153
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: BOTAO FECHAR MENU
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5344
+      y: 2361
+      width: 281
+      height: 281
+    spriteID: 9d4745fcb20d4224c8f8c1f2c566da9b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1263, y: 213}
+  - name: BOTAO MENU NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5344
+      y: 4
+      width: 915
+      height: 1186
+    spriteID: cba6dae3203da2b48b10e745f80c5d1f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2409, y: -666}
+  - name: BOTAO MENU PRESSIONADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5344
+      y: 1198
+      width: 915
+      height: 1155
+    spriteID: bd125d823806dfb4f84efee8aa742a9b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2409, y: 530}
+  - name: BOTAO SOM DESLIGADO NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6267
+      y: 4
+      width: 915
+      height: 1186
+    spriteID: ec36e4c4db04e494a8dab2a6e51437b8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4419, y: -664}
+  - name: BOTAO SOM DESLIGADO PRESSIONADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6267
+      y: 1198
+      width: 915
+      height: 1155
+    spriteID: c62f5c5d48a553848b6ec171903b48c0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4419, y: 530}
+  - name: BOTAO SOM LIGADO NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7190
+      y: 4
+      width: 915
+      height: 1186
+    spriteID: 08ae6356158b5ad4b97e3580b06a2209
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5342, y: -664}
+  - name: BOTAO SOM LIGADO PRESSIONADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7190
+      y: 1198
+      width: 915
+      height: 1155
+    spriteID: 86d481b6603c8cb4d87c6289b6ef7cbe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5342, y: 528}
+  - name: BOTAO REINICIAR NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4420
+      y: 4
+      width: 916
+      height: 1186
+    spriteID: 66b199ec545c9c64eb43b7a60fc154ac
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3659, y: -660}
+  - name: BOTAO REINICIAR PRESSIONADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4420
+      y: 1198
+      width: 916
+      height: 1155
+    spriteID: b2bae177bc8a4f443a936857246f14c5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3659, y: 528}
+  - name: FUNDO MINI MENU
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 4408
+      height: 2686
+    spriteID: dd32384ae1b596d42ba124ed498a1666
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 8192
+  importedTextureHeight: 8192
+  documentSize: {x: 4408, y: 2686}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: BOTAO FECHAR MENU
+    spriteName: BOTAO FECHAR MENU
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d4745fcb20d4224c8f8c1f2c566da9b
+    layerID: 143
+    mosaicPosition: {x: 5344, y: 2361}
+  - name: BOTAO MENU NORMAL
+    spriteName: BOTAO MENU NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cba6dae3203da2b48b10e745f80c5d1f
+    layerID: 151
+    mosaicPosition: {x: 5344, y: 4}
+  - name: BOTAO MENU PRESSIONADO
+    spriteName: BOTAO MENU PRESSIONADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bd125d823806dfb4f84efee8aa742a9b
+    layerID: 145
+    mosaicPosition: {x: 5344, y: 1198}
+  - name: BOTAO SOM DESLIGADO NORMAL
+    spriteName: BOTAO SOM DESLIGADO NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ec36e4c4db04e494a8dab2a6e51437b8
+    layerID: 161
+    mosaicPosition: {x: 6267, y: 4}
+  - name: BOTAO SOM DESLIGADO PRESSIONADO
+    spriteName: BOTAO SOM DESLIGADO PRESSIONADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c62f5c5d48a553848b6ec171903b48c0
+    layerID: 152
+    mosaicPosition: {x: 6267, y: 1198}
+  - name: BOTAO SOM LIGADO NORMAL
+    spriteName: BOTAO SOM LIGADO NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 08ae6356158b5ad4b97e3580b06a2209
+    layerID: 171
+    mosaicPosition: {x: 7190, y: 4}
+  - name: BOTAO SOM LIGADO PRESSIONADO
+    spriteName: BOTAO SOM LIGADO PRESSIONADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 86d481b6603c8cb4d87c6289b6ef7cbe
+    layerID: 162
+    mosaicPosition: {x: 7190, y: 1198}
+  - name: BOTAO REINICIAR NORMAL
+    spriteName: BOTAO REINICIAR NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 66b199ec545c9c64eb43b7a60fc154ac
+    layerID: 181
+    mosaicPosition: {x: 4420, y: 4}
+  - name: BOTAO REINICIAR PRESSIONADO
+    spriteName: BOTAO REINICIAR PRESSIONADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2bae177bc8a4f443a936857246f14c5
+    layerID: 172
+    mosaicPosition: {x: 4420, y: 1198}
+  - name: FUNDO MINI MENU
+    spriteName: FUNDO MINI MENU
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dd32384ae1b596d42ba124ed498a1666
+    layerID: 138
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: mini-menu Texture
+  prefabAssetName: mini-menu Prefab
+  spriteLibAssetName: mini-menu Sprite Lib
+  secondarySpriteTextures: []

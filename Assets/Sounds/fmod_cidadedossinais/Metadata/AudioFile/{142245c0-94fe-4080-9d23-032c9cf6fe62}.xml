@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{142245c0-94fe-4080-9d23-032c9cf6fe62}">
+		<property name="assetPath">
+			<value>sfx_ambience_transportes.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>76.799999999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{98fdaa05-cc9e-4fef-a80d-4f73622fe2b9}</destination>
+		</relationship>
+	</object>
+</objects>

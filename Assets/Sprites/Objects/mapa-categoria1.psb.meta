@@ -1,0 +1,1347 @@
+fileFormatVersion: 2
+guid: ae571ba0640d53a4e82a02ee95450512
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: tunel-frente
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 2335
+      width: 266
+      height: 237
+    spriteID: dd602ddc0fcbc7343898e40570798334
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1370, y: -315}
+  - name: TREM DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 4
+      width: 1084
+      height: 237
+    spriteID: 1b23ccbca59504b47b223784ad69bdce
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3508, y: -500}
+  - name: TREM CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 249
+      width: 1084
+      height: 237
+    spriteID: 9eb1d12cf33e45c419114984d71b03d8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3508, y: -255}
+  - name: TREM ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 4
+      width: 1082
+      height: 235
+    spriteID: cc5a0532303e4e845ae9b04da0594323
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4599, y: -501}
+  - name: TREM COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 494
+      width: 1068
+      height: 221
+    spriteID: 505c0589a23d58541870371d162c2dff
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3500, y: -18}
+  - name: TAXI DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7794
+      y: 249
+      width: 251
+      height: 129
+    spriteID: 1332b8da0c8059d449509079a305fbed
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6308, y: -720}
+  - name: TAXI CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7794
+      y: 432
+      width: 251
+      height: 129
+    spriteID: e787fc1bfec679a4dbced1e9d3923a10
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6308, y: -537}
+  - name: TAXI ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7792
+      y: 615
+      width: 249
+      height: 127
+    spriteID: 9b402cf45d6f77248be955478d14c867
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6305, y: -355}
+  - name: TAXI COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7778
+      y: 796
+      width: 235
+      height: 113
+    spriteID: 8e4e37349e58b7549aaa315f35c71ab5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6284, y: -181}
+  - name: ONIBUS DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 2852
+      width: 455
+      height: 188
+    spriteID: 7d35467c186244e4abef762e4911f04e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3144, y: 1425}
+  - name: ONIBUS CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 3048
+      width: 455
+      height: 188
+    spriteID: c65b68a553434bd40bb99f0e228491f8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3144, y: 1621}
+  - name: ONIBUS ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 963
+      width: 453
+      height: 186
+    spriteID: 6ca23a167c6f7864484b95e44037dabc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4235, y: -465}
+  - name: ONIBUS COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 1369
+      width: 439
+      height: 172
+    spriteID: f7bd2b34233f7ee40a54c634805bd2e7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4228, y: -66}
+  - name: NAVIO DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 723
+      width: 477
+      height: 358
+    spriteID: bbae0080dd31dcf4c9d8dbcbea00869a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5196, y: -1276}
+  - name: NAVIO CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 1089
+      width: 477
+      height: 358
+    spriteID: febb6504a76989642a1bcb64411b76dc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5196, y: -910}
+  - name: NAVIO ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 1455
+      width: 474
+      height: 356
+    spriteID: 3a402497fc989ed45a15f9474fade2e6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5195, y: -545}
+  - name: NAVIO COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 1819
+      width: 460
+      height: 343
+    spriteID: d03207f9c595be84c817753360e59286
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5188, y: -187}
+  - name: MOTO DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7345
+      y: 3193
+      width: 202
+      height: 123
+    spriteID: 461d7896e9ec09748a0ecb304953eb19
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3704, y: 1315}
+  - name: MOTO CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 3244
+      width: 202
+      height: 123
+    spriteID: e15b99e90dbb9244ba5d733a043347b1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2373, y: 1366}
+  - name: MOTO ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6224
+      y: 3244
+      width: 200
+      height: 121
+    spriteID: 9d1cb43ee29abea4db3c461539c47406
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2582, y: 1365}
+  - name: MOTO COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7567
+      y: 963
+      width: 186
+      height: 107
+    spriteID: 8ed7dc86b4870ae4d8ad078add319a46
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3918, y: -923}
+  - name: METRO DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 249
+      width: 680
+      height: 175
+    spriteID: 6b529511c96a55a4f854bc84cf856e60
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1914, y: -2410}
+  - name: METRO CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 432
+      width: 680
+      height: 175
+    spriteID: 97eed6886b115864a87838e7d465a1e0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1914, y: -2227}
+  - name: METRO ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 615
+      width: 678
+      height: 173
+    spriteID: d6e474a8228e13742bab49783e8db080
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1913, y: -2045}
+  - name: METRO COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 796
+      width: 664
+      height: 159
+    spriteID: 663a62d32564b394ea967b896e6f9d28
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1906, y: -1871}
+  - name: HELICOPTERO DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 1549
+      width: 380
+      height: 193
+    spriteID: 56b20210641860a4e91e75c46f5953ef
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4384, y: -1166}
+  - name: HELICOPTERO CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 1750
+      width: 380
+      height: 193
+    spriteID: 5cfd9b99be3c81347bb7da23bb052c3c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4384, y: -965}
+  - name: HELICOPTERO ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 1951
+      width: 378
+      height: 191
+    spriteID: 977b3042e047adc4381e6a7230b84db4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4383, y: -765}
+  - name: HELICOPTERO COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 2150
+      width: 364
+      height: 177
+    spriteID: 410e8005270e5cb4e921b8ae2c7cc9c7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4376, y: -573}
+  - name: CAMINHAO DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 2170
+      width: 427
+      height: 220
+    spriteID: c9932c2ebae192f4e97c59ffb9d4120b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1054, y: 1330}
+  - name: CAMINHAO CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 2398
+      width: 427
+      height: 220
+    spriteID: ca191087d0808ac49bc713e3be6ae2ad
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1054, y: 1558}
+  - name: CAMINHAO ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 2626
+      width: 423
+      height: 218
+    spriteID: f589628547360eb44b17298fc5876226
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1052, y: 1785}
+  - name: CAMINHAO COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 1157
+      width: 409
+      height: 204
+    spriteID: cb6b896c4981e6c4d8b4899256adb913
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2137, y: 309}
+  - name: BICICLETA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7359
+      y: 2990
+      width: 194
+      height: 121
+    spriteID: 56aa32daecd1575499472755c065de36
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2167, y: 1235}
+  - name: BICICLETA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7363
+      y: 2580
+      width: 194
+      height: 121
+    spriteID: 914e5766b7545274e972a61309b2f1e6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2171, y: 825}
+  - name: BICICLETA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7363
+      y: 2785
+      width: 192
+      height: 119
+    spriteID: 97bcf98320c77cc40880b25887cd18a6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2170, y: 1029}
+  - name: BICICLETA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7380
+      y: 2335
+      width: 178
+      height: 105
+    spriteID: bd3d74fd46355334f9446ca16d1fcefe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2180, y: 572}
+  - name: AMBULANCIA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 2580
+      width: 249
+      height: 197
+    spriteID: 23d6fab322b3430448d985be8adf1d33
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5261, y: 731}
+  - name: AMBULANCIA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 2785
+      width: 249
+      height: 197
+    spriteID: a01048003b4989b4a8c176ffd800e6d6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5261, y: 936}
+  - name: AMBULANCIA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 2990
+      width: 245
+      height: 195
+    spriteID: 20b7dd053ebee6f469090bc76e89b069
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5259, y: 1140}
+  - name: AMBULANCIA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 3193
+      width: 231
+      height: 181
+    spriteID: f5e659b7c4f740a4fa8df66e26efe4f7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5252, y: 1336}
+  - name: MAPA FUNDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 6002
+      height: 3376
+    spriteID: d1e36804f602e8f4dbd578d65cca8b53
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 8192
+  importedTextureHeight: 8192
+  documentSize: {x: 6002, y: 3376}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: tunel-frente
+    spriteName: tunel-frente
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dd602ddc0fcbc7343898e40570798334
+    layerID: 76
+    mosaicPosition: {x: 7106, y: 2335}
+  - name: TREM DESBOTADO
+    spriteName: TREM DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1b23ccbca59504b47b223784ad69bdce
+    layerID: 69
+    mosaicPosition: {x: 6014, y: 4}
+  - name: TREM CERTO
+    spriteName: TREM CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9eb1d12cf33e45c419114984d71b03d8
+    layerID: 71
+    mosaicPosition: {x: 6014, y: 249}
+  - name: TREM ERRADO
+    spriteName: TREM ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cc5a0532303e4e845ae9b04da0594323
+    layerID: 73
+    mosaicPosition: {x: 7106, y: 4}
+  - name: TREM COLORIDO
+    spriteName: TREM COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 505c0589a23d58541870371d162c2dff
+    layerID: 6
+    mosaicPosition: {x: 6014, y: 494}
+  - name: TAXI DESBOTADO
+    spriteName: TAXI DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1332b8da0c8059d449509079a305fbed
+    layerID: 63
+    mosaicPosition: {x: 7794, y: 249}
+  - name: TAXI CERTO
+    spriteName: TAXI CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e787fc1bfec679a4dbced1e9d3923a10
+    layerID: 65
+    mosaicPosition: {x: 7794, y: 432}
+  - name: TAXI ERRADO
+    spriteName: TAXI ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9b402cf45d6f77248be955478d14c867
+    layerID: 67
+    mosaicPosition: {x: 7792, y: 615}
+  - name: TAXI COLORIDO
+    spriteName: TAXI COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8e4e37349e58b7549aaa315f35c71ab5
+    layerID: 5
+    mosaicPosition: {x: 7778, y: 796}
+  - name: ONIBUS DESBOTADO
+    spriteName: ONIBUS DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7d35467c186244e4abef762e4911f04e
+    layerID: 57
+    mosaicPosition: {x: 6014, y: 2852}
+  - name: ONIBUS CERTO
+    spriteName: ONIBUS CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c65b68a553434bd40bb99f0e228491f8
+    layerID: 59
+    mosaicPosition: {x: 6014, y: 3048}
+  - name: ONIBUS ERRADO
+    spriteName: ONIBUS ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6ca23a167c6f7864484b95e44037dabc
+    layerID: 61
+    mosaicPosition: {x: 7106, y: 963}
+  - name: ONIBUS COLORIDO
+    spriteName: ONIBUS COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f7bd2b34233f7ee40a54c634805bd2e7
+    layerID: 14
+    mosaicPosition: {x: 7106, y: 1369}
+  - name: NAVIO DESBOTADO
+    spriteName: NAVIO DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bbae0080dd31dcf4c9d8dbcbea00869a
+    layerID: 51
+    mosaicPosition: {x: 6014, y: 723}
+  - name: NAVIO CERTO
+    spriteName: NAVIO CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: febb6504a76989642a1bcb64411b76dc
+    layerID: 53
+    mosaicPosition: {x: 6014, y: 1089}
+  - name: NAVIO ERRADO
+    spriteName: NAVIO ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3a402497fc989ed45a15f9474fade2e6
+    layerID: 55
+    mosaicPosition: {x: 6014, y: 1455}
+  - name: NAVIO COLORIDO
+    spriteName: NAVIO COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d03207f9c595be84c817753360e59286
+    layerID: 13
+    mosaicPosition: {x: 6014, y: 1819}
+  - name: MOTO DESBOTADA
+    spriteName: MOTO DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 461d7896e9ec09748a0ecb304953eb19
+    layerID: 45
+    mosaicPosition: {x: 7345, y: 3193}
+  - name: MOTO CERTA
+    spriteName: MOTO CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e15b99e90dbb9244ba5d733a043347b1
+    layerID: 47
+    mosaicPosition: {x: 6014, y: 3244}
+  - name: MOTO ERRADA
+    spriteName: MOTO ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d1cb43ee29abea4db3c461539c47406
+    layerID: 49
+    mosaicPosition: {x: 6224, y: 3244}
+  - name: MOTO COLORIDA
+    spriteName: MOTO COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8ed7dc86b4870ae4d8ad078add319a46
+    layerID: 12
+    mosaicPosition: {x: 7567, y: 963}
+  - name: METRO DESBOTADO
+    spriteName: METRO DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6b529511c96a55a4f854bc84cf856e60
+    layerID: 39
+    mosaicPosition: {x: 7106, y: 249}
+  - name: METRO CERTO
+    spriteName: METRO CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97eed6886b115864a87838e7d465a1e0
+    layerID: 41
+    mosaicPosition: {x: 7106, y: 432}
+  - name: METRO ERRADO
+    spriteName: METRO ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d6e474a8228e13742bab49783e8db080
+    layerID: 43
+    mosaicPosition: {x: 7106, y: 615}
+  - name: METRO COLORIDO
+    spriteName: METRO COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 663a62d32564b394ea967b896e6f9d28
+    layerID: 11
+    mosaicPosition: {x: 7106, y: 796}
+  - name: HELICOPTERO DESBOTADO
+    spriteName: HELICOPTERO DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56b20210641860a4e91e75c46f5953ef
+    layerID: 33
+    mosaicPosition: {x: 7106, y: 1549}
+  - name: HELICOPTERO CERTO
+    spriteName: HELICOPTERO CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5cfd9b99be3c81347bb7da23bb052c3c
+    layerID: 35
+    mosaicPosition: {x: 7106, y: 1750}
+  - name: HELICOPTERO ERRADO
+    spriteName: HELICOPTERO ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 977b3042e047adc4381e6a7230b84db4
+    layerID: 37
+    mosaicPosition: {x: 7106, y: 1951}
+  - name: HELICOPTERO COLORIDO
+    spriteName: HELICOPTERO COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 410e8005270e5cb4e921b8ae2c7cc9c7
+    layerID: 10
+    mosaicPosition: {x: 7106, y: 2150}
+  - name: CAMINHAO DESBOTADO
+    spriteName: CAMINHAO DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c9932c2ebae192f4e97c59ffb9d4120b
+    layerID: 27
+    mosaicPosition: {x: 6014, y: 2170}
+  - name: CAMINHAO CERTO
+    spriteName: CAMINHAO CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ca191087d0808ac49bc713e3be6ae2ad
+    layerID: 29
+    mosaicPosition: {x: 6014, y: 2398}
+  - name: CAMINHAO ERRADO
+    spriteName: CAMINHAO ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f589628547360eb44b17298fc5876226
+    layerID: 31
+    mosaicPosition: {x: 6014, y: 2626}
+  - name: CAMINHAO COLORIDO
+    spriteName: CAMINHAO COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cb6b896c4981e6c4d8b4899256adb913
+    layerID: 9
+    mosaicPosition: {x: 7106, y: 1157}
+  - name: BICICLETA DESBOTADA
+    spriteName: BICICLETA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56aa32daecd1575499472755c065de36
+    layerID: 21
+    mosaicPosition: {x: 7359, y: 2990}
+  - name: BICICLETA CERTA
+    spriteName: BICICLETA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 914e5766b7545274e972a61309b2f1e6
+    layerID: 23
+    mosaicPosition: {x: 7363, y: 2580}
+  - name: BICICLETA ERRADA
+    spriteName: BICICLETA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 97bcf98320c77cc40880b25887cd18a6
+    layerID: 25
+    mosaicPosition: {x: 7363, y: 2785}
+  - name: BICICLETA COLORIDA
+    spriteName: BICICLETA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bd3d74fd46355334f9446ca16d1fcefe
+    layerID: 8
+    mosaicPosition: {x: 7380, y: 2335}
+  - name: AMBULANCIA DESBOTADA
+    spriteName: AMBULANCIA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 23d6fab322b3430448d985be8adf1d33
+    layerID: 19
+    mosaicPosition: {x: 7106, y: 2580}
+  - name: AMBULANCIA CERTA
+    spriteName: AMBULANCIA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a01048003b4989b4a8c176ffd800e6d6
+    layerID: 17
+    mosaicPosition: {x: 7106, y: 2785}
+  - name: AMBULANCIA ERRADA
+    spriteName: AMBULANCIA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 20b7dd053ebee6f469090bc76e89b069
+    layerID: 15
+    mosaicPosition: {x: 7106, y: 2990}
+  - name: AMBULANCIA COLORIDA
+    spriteName: AMBULANCIA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f5e659b7c4f740a4fa8df66e26efe4f7
+    layerID: 7
+    mosaicPosition: {x: 7106, y: 3193}
+  - name: MAPA FUNDO
+    spriteName: MAPA FUNDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d1e36804f602e8f4dbd578d65cca8b53
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: mapa-categoria1 Texture
+  prefabAssetName: mapa-categoria1 Prefab
+  spriteLibAssetName: mapa-categoria1 Sprite Lib
+  secondarySpriteTextures: []

@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{746953bf-23da-d35b-af02-de6c324c7125}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_22;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\ButtonUtility.cs" />
+     <Compile Include="Assets\Scripts\Mechanic\BaseMechanic.cs" />
+     <Compile Include="Assets\Scripts\Mechanic\CamMovement.cs" />
+     <Compile Include="Assets\Scripts\Mechanic\Figure.cs" />
+     <Compile Include="Assets\Scripts\Mechanic\GrayScale.cs" />
+     <Compile Include="Assets\Scripts\Mechanic\Instruction.cs" />
+     <Compile Include="Assets\Scripts\SceneController.cs" />
+     <Compile Include="Assets\Scripts\SoundController.cs" />
+     <Compile Include="Assets\Scripts\UI\FixScreensize.cs" />
+     <Compile Include="Assets\Scripts\UI\Glossary.cs" />
+     <Compile Include="Assets\Scripts\UI\InstructionVideo.cs" />
+     <Compile Include="Assets\Scripts\UI\MiniMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\VictoryDefeat.cs" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{a22d7768-afcd-4a5e-ac0b-381b3f00f4d9}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{9c0ff400-4a52-47d1-9d17-eaa19f0b45f4}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{abe19f37-a33a-4943-923c-66e01c65fa9b}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{0729c46d-82ee-49b9-9104-24fc95d46f9e}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{df375e27-2a7a-451d-808e-21cdc283e03b}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{1a3b4888-0e93-4a75-8571-2c321cae5366}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{a8497589-ca3d-4151-ab92-2e32e300cc12}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{f6fa1eab-e22c-4259-8731-676fcc025414}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{c9ea6c6a-4718-4a27-ba6f-7a38d010342c}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{8a0303bf-f50f-43c6-bb52-6c52b6e56e70}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{95871417-259c-4b13-98a3-5cef68281d29}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{c2e40aff-8c16-4458-af78-d09416ce2f4c}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Group\{000400df-232a-4e45-afcd-70fe8060820e}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{4a022c99-d1b6-45ab-872d-6436dfec0f38}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Platform\{b9a032d5-24ed-4674-b9a2-e9078559320f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{6984dac7-5381-4764-b81a-4a8c4a070c1f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{4c373121-22d1-4558-ac65-98a2b7b61c6f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{dd622b9e-f4b0-493d-8abf-740d49596c9e}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{6722fc1f-2fb7-4907-a40b-23e32570e855}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{458b50bb-6077-4aba-ac90-dfca7c152a33}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\VCA\{f8824729-5c0a-490a-9cc1-c23c7ddfd481}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{6859e477-7681-4998-9eea-fb370a1288fd}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{076176fb-40ad-47e0-b292-3f49e156c9b3}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\ParameterPreset\{a3a71dca-0d41-4652-b64d-2485300a4443}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{2fc7e472-645e-468f-92e2-3cd814c7ec1f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{8351f3c9-0a0d-4e0c-ab6d-a75a79c37509}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{4c928cab-26a4-4b91-abc4-ebacd674665c}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{0065b30c-d625-4537-97d4-83e9eb8349a4}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{82a11186-46fb-4bd3-8a16-e263079ab953}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{fb54bc72-2f8e-4aed-96b2-2563aa88f84d}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{b1545154-8d8b-49ae-a075-a98b8302b468}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{057642ae-471c-4b64-bace-9eeba94dcb9d}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{e2053fb1-20a5-4107-a846-d8ab90532514}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Group\{86a78fdd-deba-4cbd-87be-8b2d8a5af587}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{85352942-330e-4198-9c6c-75dbebfeabde}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{6753bd28-18df-4a24-966d-f8e8d4ce5f9f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{9f5db952-554e-48a5-8086-9a21e4514008}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{c4031d8b-86d6-46a6-9186-72f13bfe288d}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Group\{b99b87d1-8e54-4e7f-99cd-242dfa4880bc}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{877ef926-d07b-4c73-b715-8d524b4c7d8a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{c762be90-97aa-4ddd-bb98-06ee34b7e7d6}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{2e74c4de-94a5-46c4-9544-446a4e0c3e64}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{11b6649d-d44b-43b7-af04-fb9e0f46987a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{ec78ad17-e150-4de4-9ab7-ce6caf42e5e3}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{d6b06b94-e27c-407d-b4f9-5d63a05d2a5e}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{aadd65b7-e5e3-4d0f-9dbe-9035847e4b2b}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\ProfilerFolder\{91fe7e89-a9ab-4a78-870d-165dbb888367}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{d95bf234-d192-4386-a566-904e8ecf8ab3}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\BankFolder\{c864d376-e992-45f6-ad60-abf822ee1828}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{db25e342-774e-4646-ad9f-89ef01d0bb56}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{32639fd1-825e-47ce-885a-7dd5bad6d11d}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{f27e7ad2-1407-4017-baca-df51e98f19ee}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\VCA\{639466ff-096a-47e0-9d29-dd85ee2b640f}.xml" />
+     <None Include="Assets\Materials\Sprite-Grayscale.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{df98b230-1008-457d-aa07-f19197b112ea}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{f8216635-8ab8-4ecf-8068-9fe2a28dd22e}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{cc1f06e6-7d8c-4b5f-8e6b-19f17aa7b79b}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Return\{54418f30-92c4-48ce-a49b-caf40d24fd6f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EncodingSetting\{78ddfc2a-51b8-415e-bc1d-de60a8f34829}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{e311ed35-bf35-458a-b24d-66942ff8c00a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{184ae98d-8942-4f76-a546-68089792938a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{068f5933-dd78-40d9-8efd-ef6172253feb}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{c76e9380-fb8e-4500-bcfc-5705359cea83}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\SnapshotGroup\{e6ebe04c-e532-4373-b155-66dfc7dcca9e}.xml" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{efacd0b8-745f-4b3d-9716-2285dc903bcb}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Master.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{2b527529-a226-4cfe-ab1b-7c5cc3f23d0a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{d084d695-986f-4397-9a83-888c8460afb7}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{3d4f77b6-500c-48f8-9a58-737ced713d62}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{e687a44c-8132-4d9c-a159-1022e56fff40}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{8a50d124-cb9b-4941-b25c-6a521bcaa671}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{e2ba4549-c00c-4877-8524-e725472d59c6}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{d7d5b2fb-a6e1-422d-a28b-184f5285bf87}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{68249a51-bd5a-4a7b-9844-9b85c485ae60}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{60192505-1da1-4a1e-92ee-b7db6bb37408}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{4cf8665b-1d7d-476d-9bcf-876bf5086640}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{6dba56ff-14ad-4bb6-abb3-d09afaae1bf6}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Asset\{98fdaa05-cc9e-4fef-a80d-4f73622fe2b9}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{6ca0f2d9-63d4-4cc4-8e37-c2128e6ce93a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{d9948a44-c4f7-4d55-81b0-7cb3b2d2463f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EffectPresetFolder\{794c019f-9656-478e-927c-0efe77d98caa}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\ParameterPresetFolder\{bb67b804-b517-4409-889e-9dbfa783b0bf}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{26edde28-a8db-498e-bf73-c6084d8ef03f}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{c96c87bb-a3e3-490e-918d-a2caadb94098}.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Mixer.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\VCA\{87fd3e66-b7ab-4793-b959-e6dca7d718be}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{232ff6ab-a243-4c3e-a2cd-29ebd8c8e286}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{314b51a6-1eec-4c75-bbcd-530585d24a9a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{af508186-7045-45b1-9b89-8822a7ddab8e}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{1e6a7acb-8387-49ad-8768-f1dc5dca5200}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Tags.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Workspace.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{c189adea-69d7-4625-a143-7f680897619c}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{f64825bb-2ae7-4ea5-af26-374f0af5f17e}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{142245c0-94fe-4080-9d23-032c9cf6fe62}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{261a2267-5710-46a2-aa3f-2cc83f2c8b34}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{b0f8a0b6-b9f9-4979-b568-34045aedd52c}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{5f784746-9b5a-445f-b8d5-e4ed1f7da68e}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{d4ac131a-b9c7-4423-afc7-a7ecfdbff7fa}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{22efd557-2f20-4bb5-b1d8-c093f1018a26}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{b3aef661-5187-4262-b96d-561f724309a3}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{4703ee18-efc7-41a9-ba07-13752c4a4077}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Bank\{055add29-5b23-41d5-8222-99244b8ef001}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{21858ddb-a54f-44cc-b094-b9f94fb66960}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\SandboxFolder\{794a3385-e8d8-448f-a615-920378c95046}.xml" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{f63cde14-7c62-4aa6-8cd4-547f24081e33}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{a1b25d95-cf0b-4601-a7b8-6747a33f1637}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\AudioFile\{0f3829f7-a88e-4498-b97c-0de3b7cbab0a}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\Event\{508e4730-29a8-4bde-abc8-43dee6a2c9cf}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{35fa26da-1285-4715-857a-c808a7fcfaea}.xml" />
+     <None Include="Assets\Sounds\fmod_cidadedossinais\Metadata\EventFolder\{f083bd4a-3635-4e16-8954-ff964dc651ab}.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <Reference Include="UnityEngine">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+        <HintPath>D:/Arquivos de Programas/Unity/2019.4.22f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>D:/User/Documents/Cidade dos Sinais/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>D:/User/Documents/Cidade dos Sinais/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>D:/User/Documents/Cidade dos Sinais/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>D:/User/Documents/Cidade dos Sinais/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{f84d1a60-0560-8586-104d-c1a909393c7c}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
+      <Project>{c5f864f0-fe36-b4ad-6a79-06083013ce96}</Project>
+      <Name>Unity.2D.Animation.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
+      <Project>{8bf6766d-7275-7471-3509-ca85da88054e}</Project>
+      <Name>Unity.2D.PixelPerfect.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{baab194d-07d1-a7b5-609e-5685a2570530}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{86d3219b-19b0-ec6f-55cd-1a3c43a23162}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{004b9c0e-bc43-f61d-c4f0-d1a6042d72a5}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
+      <Project>{2b83a90c-703a-21e1-cce1-a3eb1153fd06}</Project>
+      <Name>Unity.2D.SpriteShape.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{3714aa7e-3198-33df-1ccb-16d9595a7c32}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
+      <Project>{aee7da4f-1afc-bd32-11b2-18963c763cad}</Project>
+      <Name>Unity.2D.Path.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{a6071d61-b22e-eaed-551c-eb65b1e38188}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
+      <Project>{1c53298c-f0c9-b184-486d-d8efb27f6c11}</Project>
+      <Name>Unity.2D.Animation.Triangle.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{498faf5c-558b-847f-c88d-c3d45a148a82}</Project>
+      <Name>PsdPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{eaeaeff9-4f2f-cd56-1c77-fef3ac293339}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{e06195a2-e112-2351-2830-fd6c1285e992}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{cba98f2a-2d82-03c6-bc98-1c96bcad6bc7}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{4777c4cd-c782-89ff-efe5-8df51cb757cb}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
+      <Project>{b6e1d77d-96e1-2b43-c6db-52d255d55dda}</Project>
+      <Name>Unity.2D.Psdimporter.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{926b0129-6e03-3943-6051-7d0625f35937}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
+      <Project>{77ebaf13-64b9-ad0d-3cf1-d0de42f1c24a}</Project>
+      <Name>Unity.2D.Common.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{058ec28e-3523-b1d9-53c6-033c013f88aa}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
+      <Project>{d7ceeb84-4516-cf9a-9c2d-1a73d9195475}</Project>
+      <Name>Unity.2D.PixelPerfect</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+      <Project>{233b850b-1fdd-2e89-cba5-63e1573752dc}</Project>
+      <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{4ed78108-a6fc-55be-f9c5-be76bbb9dcf5}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{ce2231b6-0434-2556-cd34-13e2d3ad984d}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{975fbbdc-7ab1-78a2-dedc-782b91432488}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{080f7d48-43bc-7f66-8cc5-506bd0ab58ab}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{e480e786-3b49-7378-f4f8-7515b5119e31}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

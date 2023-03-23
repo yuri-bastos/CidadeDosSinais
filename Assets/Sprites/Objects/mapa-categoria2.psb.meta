@@ -1,0 +1,1318 @@
+fileFormatVersion: 2
+guid: 595bf8ce7a0a7d54c8309dda0ce2a8e8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: SUPERMERCADO DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 1784
+      width: 541
+      height: 268
+    spriteID: d01b291b3616f834f91cbc27d9ac3f56
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4216, y: -292}
+  - name: SUPERMERCADO CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 2060
+      width: 541
+      height: 268
+    spriteID: 7b36893a040dd8743bb0071e27df0118
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4216, y: -16}
+  - name: SUPERMERCADO ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6625
+      y: 4
+      width: 539
+      height: 266
+    spriteID: b9de75d4722f7544da809b954b834616
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4826, y: -2073}
+  - name: SUPERMERCADO COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7653
+      y: 722
+      width: 525
+      height: 252
+    spriteID: b34b47a1a94137643a7201db7718dad9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5847, y: -1362}
+  - name: RESTAURANTE DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 2646
+      width: 271
+      height: 274
+    spriteID: 5dce6e31ff81fd64aaa4b4c690b85f25
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2850, y: 1240}
+  - name: RESTAURANTE CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 2928
+      width: 271
+      height: 274
+    spriteID: 680377ee5296d6c4581c37c5e5a51096
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2850, y: 1522}
+  - name: RESTAURANTE ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7653
+      y: 982
+      width: 269
+      height: 272
+    spriteID: 913fb044fe299c24ea78b0fe155ece26
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3330, y: -425}
+  - name: RESTAURANTE COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7653
+      y: 1262
+      width: 255
+      height: 258
+    spriteID: 2737312a9ea7fcd4c8c23d2698e7f6f2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3323, y: -152}
+  - name: PREFEITURA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 4
+      width: 603
+      height: 289
+    spriteID: 469a68d4aaf2d064790b7c9b7e35fb4a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2779, y: -2000}
+  - name: PREFEITURA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 301
+      width: 603
+      height: 289
+    spriteID: 9d6923fc3acc220419ebbd35a5d6d395
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2779, y: -1703}
+  - name: PREFEITURA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 598
+      width: 599
+      height: 287
+    spriteID: 616ab775bb4776e4d860c9f483d69a17
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2777, y: -1407}
+  - name: PREFEITURA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 893
+      width: 585
+      height: 273
+    spriteID: 0e537eedf856fd44d8062a15e5f35a69
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2770, y: -1119}
+  - name: POLICIA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 1342
+      width: 405
+      height: 245
+    spriteID: 9d7faba1eaa154448971a2cbe226b71d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4567, y: -782}
+  - name: POLICIA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 1595
+      width: 405
+      height: 245
+    spriteID: ea8b85f0a50f80549adc7eb128e3500a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4567, y: -529}
+  - name: POLICIA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 1848
+      width: 401
+      height: 243
+    spriteID: bc9f59b11df67e842ab2f71611dc6489
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4565, y: -277}
+  - name: POLICIA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7782
+      y: 4
+      width: 387
+      height: 229
+    spriteID: fe47b261c4cdaa54491b88aa704dba10
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5168, y: -2128}
+  - name: PADARIA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6625
+      y: 623
+      width: 270
+      height: 238
+    spriteID: 7918ee48028953842ae8d1c30a99a694
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1042, y: -359}
+  - name: PADARIA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6625
+      y: 869
+      width: 270
+      height: 238
+    spriteID: bd7b00fd6ed379548ab10df8cfc0ce7e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1042, y: -113}
+  - name: PADARIA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7653
+      y: 1528
+      width: 268
+      height: 236
+    spriteID: b4fbfe68a06e13649b2b2b49167e7c06
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2069, y: 545}
+  - name: PADARIA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6903
+      y: 623
+      width: 254
+      height: 222
+    spriteID: 254b27e5c3df78943857ae696f2b86ff
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1312, y: -367}
+  - name: HOSPITAL DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 1174
+      width: 491
+      height: 297
+    spriteID: 552669c286ec0b44780c0048d50f1e52
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4184, y: -249}
+  - name: HOSPITAL CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 1479
+      width: 491
+      height: 297
+    spriteID: 732e27fc67f4b1a4ea13c8127d1f8e02
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4184, y: 56}
+  - name: HOSPITAL ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 3030
+      width: 487
+      height: 295
+    spriteID: a159ec202cb2a544cb51f3054530b160
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4182, y: 1606}
+  - name: HOSPITAL COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 722
+      width: 473
+      height: 281
+    spriteID: 5e5ee4fd793b9f2428694ab319f595a2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5333, y: -709}
+  - name: FEIRA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 2099
+      width: 465
+      height: 175
+    spriteID: ec823502ae995c248bddfd8685f467b0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1805, y: 287}
+  - name: FEIRA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 2282
+      width: 465
+      height: 175
+    spriteID: f00517b8c34c6f240bba688f9934d6cb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1805, y: 470}
+  - name: FEIRA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 2465
+      width: 463
+      height: 173
+    spriteID: f11336f58215540419c20c710623fda6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1804, y: 652}
+  - name: FEIRA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 3210
+      width: 449
+      height: 159
+    spriteID: 5da85a1000df95f42ad4139cf3089109
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1797, y: 1390}
+  - name: ESCOLA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 4
+      width: 602
+      height: 232
+    spriteID: 76a7298b9bcb5dd4faee1a7783566f0d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4697, y: -1100}
+  - name: ESCOLA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 244
+      width: 602
+      height: 232
+    spriteID: 1d8679d0867966a47b014ce3866174ae
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4697, y: -860}
+  - name: ESCOLA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 484
+      width: 600
+      height: 230
+    spriteID: 70db0befecd546d40b628aefaf8f2bf0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4696, y: -621}
+  - name: ESCOLA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3388
+      width: 586
+      height: 216
+    spriteID: c83335c0b372ad94f98c8e870c051fea
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -2479, y: 2276}
+  - name: CASA DESBOTADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7782
+      y: 244
+      width: 240
+      height: 215
+    spriteID: e932a7be8adabee4da2b91c496f71a1f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5683, y: -738}
+  - name: CASA CERTA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7780
+      y: 484
+      width: 240
+      height: 215
+    spriteID: a0bfd00c37d8e43408aebb7c9a269010
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5681, y: -498}
+  - name: CASA ERRADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7653
+      y: 1772
+      width: 238
+      height: 213
+    spriteID: ff57994a899cf8c40bc32da22215b5d1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5553, y: 789}
+  - name: CASA COLORIDA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7653
+      y: 1993
+      width: 224
+      height: 199
+    spriteID: 4785e8c8c241f804887e83ae1f949246
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5546, y: 1003}
+  - name: BOMBEIRO DESBOTADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 2336
+      width: 424
+      height: 339
+    spriteID: 1c91b5a376b59d44f886ade8b2614031
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2001, y: 242}
+  - name: BOMBEIRO CERTO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6014
+      y: 2683
+      width: 424
+      height: 339
+    spriteID: 5822258b820c4b348adb33a5fc4eeb7c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2001, y: 589}
+  - name: BOMBEIRO ERRADO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6625
+      y: 278
+      width: 422
+      height: 337
+    spriteID: 238d7c4333da33542884ccc9aca3e45a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2611, y: -1817}
+  - name: BOMBEIRO COLORIDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7172
+      y: 1011
+      width: 408
+      height: 323
+    spriteID: 3380eaa58a252de45b6e91f4edad83cb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3151, y: -1091}
+  - name: FUNDO MAPA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 6002
+      height: 3376
+    spriteID: 089f40a9148932e469e1fb1765f376d8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 8192
+  importedTextureHeight: 8192
+  documentSize: {x: 6002, y: 3376}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: SUPERMERCADO DESBOTADO
+    spriteName: SUPERMERCADO DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d01b291b3616f834f91cbc27d9ac3f56
+    layerID: 68
+    mosaicPosition: {x: 6014, y: 1784}
+  - name: SUPERMERCADO CERTO
+    spriteName: SUPERMERCADO CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b36893a040dd8743bb0071e27df0118
+    layerID: 70
+    mosaicPosition: {x: 6014, y: 2060}
+  - name: SUPERMERCADO ERRADO
+    spriteName: SUPERMERCADO ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b9de75d4722f7544da809b954b834616
+    layerID: 72
+    mosaicPosition: {x: 6625, y: 4}
+  - name: SUPERMERCADO COLORIDO
+    spriteName: SUPERMERCADO COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b34b47a1a94137643a7201db7718dad9
+    layerID: 4
+    mosaicPosition: {x: 7653, y: 722}
+  - name: RESTAURANTE DESBOTADO
+    spriteName: RESTAURANTE DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5dce6e31ff81fd64aaa4b4c690b85f25
+    layerID: 62
+    mosaicPosition: {x: 7172, y: 2646}
+  - name: RESTAURANTE CERTO
+    spriteName: RESTAURANTE CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 680377ee5296d6c4581c37c5e5a51096
+    layerID: 64
+    mosaicPosition: {x: 7172, y: 2928}
+  - name: RESTAURANTE ERRADO
+    spriteName: RESTAURANTE ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 913fb044fe299c24ea78b0fe155ece26
+    layerID: 66
+    mosaicPosition: {x: 7653, y: 982}
+  - name: RESTAURANTE COLORIDO
+    spriteName: RESTAURANTE COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2737312a9ea7fcd4c8c23d2698e7f6f2
+    layerID: 3
+    mosaicPosition: {x: 7653, y: 1262}
+  - name: PREFEITURA DESBOTADA
+    spriteName: PREFEITURA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 469a68d4aaf2d064790b7c9b7e35fb4a
+    layerID: 56
+    mosaicPosition: {x: 6014, y: 4}
+  - name: PREFEITURA CERTA
+    spriteName: PREFEITURA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d6923fc3acc220419ebbd35a5d6d395
+    layerID: 58
+    mosaicPosition: {x: 6014, y: 301}
+  - name: PREFEITURA ERRADA
+    spriteName: PREFEITURA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 616ab775bb4776e4d860c9f483d69a17
+    layerID: 60
+    mosaicPosition: {x: 6014, y: 598}
+  - name: PREFEITURA COLORIDA
+    spriteName: PREFEITURA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0e537eedf856fd44d8062a15e5f35a69
+    layerID: 12
+    mosaicPosition: {x: 6014, y: 893}
+  - name: POLICIA DESBOTADA
+    spriteName: POLICIA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9d7faba1eaa154448971a2cbe226b71d
+    layerID: 50
+    mosaicPosition: {x: 7172, y: 1342}
+  - name: POLICIA CERTA
+    spriteName: POLICIA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ea8b85f0a50f80549adc7eb128e3500a
+    layerID: 52
+    mosaicPosition: {x: 7172, y: 1595}
+  - name: POLICIA ERRADA
+    spriteName: POLICIA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bc9f59b11df67e842ab2f71611dc6489
+    layerID: 54
+    mosaicPosition: {x: 7172, y: 1848}
+  - name: POLICIA COLORIDA
+    spriteName: POLICIA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fe47b261c4cdaa54491b88aa704dba10
+    layerID: 11
+    mosaicPosition: {x: 7782, y: 4}
+  - name: PADARIA DESBOTADA
+    spriteName: PADARIA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7918ee48028953842ae8d1c30a99a694
+    layerID: 44
+    mosaicPosition: {x: 6625, y: 623}
+  - name: PADARIA CERTA
+    spriteName: PADARIA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bd7b00fd6ed379548ab10df8cfc0ce7e
+    layerID: 46
+    mosaicPosition: {x: 6625, y: 869}
+  - name: PADARIA ERRADA
+    spriteName: PADARIA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b4fbfe68a06e13649b2b2b49167e7c06
+    layerID: 48
+    mosaicPosition: {x: 7653, y: 1528}
+  - name: PADARIA COLORIDA
+    spriteName: PADARIA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 254b27e5c3df78943857ae696f2b86ff
+    layerID: 10
+    mosaicPosition: {x: 6903, y: 623}
+  - name: HOSPITAL DESBOTADO
+    spriteName: HOSPITAL DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 552669c286ec0b44780c0048d50f1e52
+    layerID: 38
+    mosaicPosition: {x: 6014, y: 1174}
+  - name: HOSPITAL CERTO
+    spriteName: HOSPITAL CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 732e27fc67f4b1a4ea13c8127d1f8e02
+    layerID: 40
+    mosaicPosition: {x: 6014, y: 1479}
+  - name: HOSPITAL ERRADO
+    spriteName: HOSPITAL ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a159ec202cb2a544cb51f3054530b160
+    layerID: 42
+    mosaicPosition: {x: 6014, y: 3030}
+  - name: HOSPITAL COLORIDO
+    spriteName: HOSPITAL COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5e5ee4fd793b9f2428694ab319f595a2
+    layerID: 9
+    mosaicPosition: {x: 7172, y: 722}
+  - name: FEIRA DESBOTADA
+    spriteName: FEIRA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ec823502ae995c248bddfd8685f467b0
+    layerID: 32
+    mosaicPosition: {x: 7172, y: 2099}
+  - name: FEIRA CERTA
+    spriteName: FEIRA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f00517b8c34c6f240bba688f9934d6cb
+    layerID: 34
+    mosaicPosition: {x: 7172, y: 2282}
+  - name: FEIRA ERRADA
+    spriteName: FEIRA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f11336f58215540419c20c710623fda6
+    layerID: 36
+    mosaicPosition: {x: 7172, y: 2465}
+  - name: FEIRA COLORIDA
+    spriteName: FEIRA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5da85a1000df95f42ad4139cf3089109
+    layerID: 8
+    mosaicPosition: {x: 7172, y: 3210}
+  - name: ESCOLA DESBOTADA
+    spriteName: ESCOLA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 76a7298b9bcb5dd4faee1a7783566f0d
+    layerID: 26
+    mosaicPosition: {x: 7172, y: 4}
+  - name: ESCOLA CERTA
+    spriteName: ESCOLA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1d8679d0867966a47b014ce3866174ae
+    layerID: 28
+    mosaicPosition: {x: 7172, y: 244}
+  - name: ESCOLA ERRADA
+    spriteName: ESCOLA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 70db0befecd546d40b628aefaf8f2bf0
+    layerID: 30
+    mosaicPosition: {x: 7172, y: 484}
+  - name: ESCOLA COLORIDA
+    spriteName: ESCOLA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c83335c0b372ad94f98c8e870c051fea
+    layerID: 7
+    mosaicPosition: {x: 4, y: 3388}
+  - name: CASA DESBOTADA
+    spriteName: CASA DESBOTADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e932a7be8adabee4da2b91c496f71a1f
+    layerID: 20
+    mosaicPosition: {x: 7782, y: 244}
+  - name: CASA CERTA
+    spriteName: CASA CERTA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a0bfd00c37d8e43408aebb7c9a269010
+    layerID: 22
+    mosaicPosition: {x: 7780, y: 484}
+  - name: CASA ERRADA
+    spriteName: CASA ERRADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ff57994a899cf8c40bc32da22215b5d1
+    layerID: 24
+    mosaicPosition: {x: 7653, y: 1772}
+  - name: CASA COLORIDA
+    spriteName: CASA COLORIDA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4785e8c8c241f804887e83ae1f949246
+    layerID: 6
+    mosaicPosition: {x: 7653, y: 1993}
+  - name: BOMBEIRO DESBOTADO
+    spriteName: BOMBEIRO DESBOTADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1c91b5a376b59d44f886ade8b2614031
+    layerID: 14
+    mosaicPosition: {x: 6014, y: 2336}
+  - name: BOMBEIRO CERTO
+    spriteName: BOMBEIRO CERTO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5822258b820c4b348adb33a5fc4eeb7c
+    layerID: 16
+    mosaicPosition: {x: 6014, y: 2683}
+  - name: BOMBEIRO ERRADO
+    spriteName: BOMBEIRO ERRADO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 238d7c4333da33542884ccc9aca3e45a
+    layerID: 18
+    mosaicPosition: {x: 6625, y: 278}
+  - name: BOMBEIRO COLORIDO
+    spriteName: BOMBEIRO COLORIDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3380eaa58a252de45b6e91f4edad83cb
+    layerID: 5
+    mosaicPosition: {x: 7172, y: 1011}
+  - name: FUNDO MAPA
+    spriteName: FUNDO MAPA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 089f40a9148932e469e1fb1765f376d8
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: mapa-categoria2 Texture
+  prefabAssetName: mapa-categoria2 Prefab
+  spriteLibAssetName: mapa-categoria2 Sprite Lib
+  secondarySpriteTextures: []

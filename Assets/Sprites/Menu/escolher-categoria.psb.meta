@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 7f37d93b0e7b1a54c9bfa5eb29b55c30
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: CATEGORIA 1 NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1345
+      width: 793
+      height: 244
+    spriteID: 46062492ee0c55a4c8ac658f85861532
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -560, y: 597}
+  - name: CATEGORIA 1 SELECIONADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 805
+      y: 1345
+      width: 793
+      height: 228
+    spriteID: 2b5271d74b51814479d9b153cc32421d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 241, y: 597}
+  - name: CATEGORIA 2 NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 793
+      height: 245
+    spriteID: e222d77539b43294d924e41194d36270
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -560, y: 683}
+  - name: CATEGORIA 2 SELECIONADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1597
+      width: 793
+      height: 228
+    spriteID: a0e78e04aaf3906428171a71de5190e4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -560, y: 1188}
+  - name: CATEGORIA 3 NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 805
+      y: 1092
+      width: 793
+      height: 245
+    spriteID: f3b89344fcd622a4e82b404d20b416e8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 241, y: 1021}
+  - name: CATEGORIA 3 SELECIONADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 805
+      y: 1597
+      width: 793
+      height: 228
+    spriteID: bf8c36caded5c924eb4433ac76cdac62
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 241, y: 1526}
+  - name: SETA VOLTAR MENU
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1606
+      y: 1597
+      width: 174
+      height: 104
+    spriteID: b07dbfcf673ecd84a8063402b44017ce
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1570, y: 657}
+  - name: FUNDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 1015a265243ea08458322b0447cce061
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: CATEGORIA 1 NORMAL
+    spriteName: CATEGORIA 1 NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 46062492ee0c55a4c8ac658f85861532
+    layerID: 38
+    mosaicPosition: {x: 4, y: 1345}
+  - name: CATEGORIA 1 SELECIONADA
+    spriteName: CATEGORIA 1 SELECIONADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2b5271d74b51814479d9b153cc32421d
+    layerID: 75
+    mosaicPosition: {x: 805, y: 1345}
+  - name: CATEGORIA 2 NORMAL
+    spriteName: CATEGORIA 2 NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e222d77539b43294d924e41194d36270
+    layerID: 39
+    mosaicPosition: {x: 4, y: 1092}
+  - name: CATEGORIA 2 SELECIONADA
+    spriteName: CATEGORIA 2 SELECIONADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a0e78e04aaf3906428171a71de5190e4
+    layerID: 76
+    mosaicPosition: {x: 4, y: 1597}
+  - name: CATEGORIA 3 NORMAL
+    spriteName: CATEGORIA 3 NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f3b89344fcd622a4e82b404d20b416e8
+    layerID: 40
+    mosaicPosition: {x: 805, y: 1092}
+  - name: CATEGORIA 3 SELECIONADA
+    spriteName: CATEGORIA 3 SELECIONADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bf8c36caded5c924eb4433ac76cdac62
+    layerID: 77
+    mosaicPosition: {x: 805, y: 1597}
+  - name: SETA VOLTAR MENU
+    spriteName: SETA VOLTAR MENU
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b07dbfcf673ecd84a8063402b44017ce
+    layerID: 44
+    mosaicPosition: {x: 1606, y: 1597}
+  - name: FUNDO
+    spriteName: FUNDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1015a265243ea08458322b0447cce061
+    layerID: 32
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: escolher-categoria Texture
+  prefabAssetName: escolher-categoria Prefab
+  spriteLibAssetName: escolher-categoria Sprite Lib
+  secondarySpriteTextures: []

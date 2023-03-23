@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: e167f14facf7a194bb1d4bd16dfa9603
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: PLACA JOGAR NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1280
+      y: 1092
+      width: 371
+      height: 175
+    spriteID: 1a82138685269e04b9e1a157eef372b4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 343, y: 411}
+  - name: PLACA JOGAR SELECIONADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 403
+      height: 207
+    spriteID: 0595b2e164b408149af63b0b0e05072a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -917, y: 427}
+  - name: PLACA OPCOES NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1659
+      y: 1092
+      width: 373
+      height: 162
+    spriteID: 0204530f65777084e8aecd4601395830
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 197, y: 600}
+  - name: PLACA OPCOES SELECIONADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 1092
+      width: 405
+      height: 194
+    spriteID: 15efa5920446e6e489dae11623d99bee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1031, y: 616}
+  - name: PLACA CREDITOS NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1307
+      width: 412
+      height: 136
+    spriteID: 30161ecc49386a348912839ce7e3d99a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -912, y: 1032}
+  - name: PLACA CREDITOS SELECIONADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 828
+      y: 1092
+      width: 444
+      height: 168
+    spriteID: ae0b02147380c20438dec57c2e130c19
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -72, y: 833}
+  - name: PLACA SAIR NORMAL
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 270
+      y: 1451
+      width: 226
+      height: 144
+    spriteID: 9a0a150afbd2f6243a2de0386d9e72e6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1177, y: 1346}
+  - name: PLACA SAIR SELECIONADA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1451
+      width: 258
+      height: 176
+    spriteID: 6e120181c3363e147aa7155f405d6707
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1427, y: 1362}
+  - name: FUNDO
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 19f3eaa01dbf7044a9622952f61859dd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: PLACA JOGAR NORMAL
+    spriteName: PLACA JOGAR NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1a82138685269e04b9e1a157eef372b4
+    layerID: 169
+    mosaicPosition: {x: 1280, y: 1092}
+  - name: PLACA JOGAR SELECIONADA
+    spriteName: PLACA JOGAR SELECIONADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0595b2e164b408149af63b0b0e05072a
+    layerID: 146
+    mosaicPosition: {x: 4, y: 1092}
+  - name: PLACA OPCOES NORMAL
+    spriteName: PLACA OPCOES NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0204530f65777084e8aecd4601395830
+    layerID: 174
+    mosaicPosition: {x: 1659, y: 1092}
+  - name: PLACA OPCOES SELECIONADA
+    spriteName: PLACA OPCOES SELECIONADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 15efa5920446e6e489dae11623d99bee
+    layerID: 144
+    mosaicPosition: {x: 415, y: 1092}
+  - name: PLACA CREDITOS NORMAL
+    spriteName: PLACA CREDITOS NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 30161ecc49386a348912839ce7e3d99a
+    layerID: 179
+    mosaicPosition: {x: 4, y: 1307}
+  - name: PLACA CREDITOS SELECIONADA
+    spriteName: PLACA CREDITOS SELECIONADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ae0b02147380c20438dec57c2e130c19
+    layerID: 142
+    mosaicPosition: {x: 828, y: 1092}
+  - name: PLACA SAIR NORMAL
+    spriteName: PLACA SAIR NORMAL
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9a0a150afbd2f6243a2de0386d9e72e6
+    layerID: 184
+    mosaicPosition: {x: 270, y: 1451}
+  - name: PLACA SAIR SELECIONADA
+    spriteName: PLACA SAIR SELECIONADA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6e120181c3363e147aa7155f405d6707
+    layerID: 140
+    mosaicPosition: {x: 4, y: 1451}
+  - name: FUNDO
+    spriteName: FUNDO
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 19f3eaa01dbf7044a9622952f61859dd
+    layerID: 101
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: menu-inicial Texture
+  prefabAssetName: menu-inicial Prefab
+  spriteLibAssetName: menu-inicial Sprite Lib
+  secondarySpriteTextures: []
