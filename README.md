@@ -1,4 +1,4 @@
-# CidadeDosSinais
+# Cidade Dos Sinais
 Jogo educativo de Libras feito no projeto de extensão CEGI - Unifesp
 
 
